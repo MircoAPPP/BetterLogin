@@ -1,0 +1,14 @@
+name: BetterLogin
+version: 1.0.0
+main: org.scala.betterLogin.BetterLogin
+api-version: 1.21
+commands:
+  login:
+    description: Login to your account
+    usage: /login <password>
+  register:
+    description: Register a new account
+    usage: /register <password> <confirmPassword>
+  premium:
+    description: Register as a premium user
+    usage: /premium
