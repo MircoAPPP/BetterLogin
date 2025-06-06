@@ -10,7 +10,7 @@ A sophisticated authentication system for Minecraft servers that balances securi
 - **Complete action control** for unauthenticated players
 
 ## 📥 Installation
-1. Download the latest version from [Releases](#)
+1. Download the latest version from [Releases](https://github.com/MircoAPPP/BetterLogin/releases/tag/v1.0.0)
 2. Place `BetterLogin.jar` in your server's `plugins/` folder
 3. Restart the server
 
