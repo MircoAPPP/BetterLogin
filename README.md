@@ -5,12 +5,12 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 A sophisticated authentication system for Minecraft servers that balances security and convenience, featuring:
-- **Auto-login** for premium users
+- **Auto-login and register** for premium users
 - **Secure registration** for non-premium accounts
 - **Complete action control** for unauthenticated players
 
 ## 📥 Installation
-1. Download the latest version from [Releases](https://github.com/MircoAPPP/BetterLogin/releases/tag/v1.0.0)
+1. Download the latest version from [Releases](https://github.com/MircoAPPP/BetterLogin/releases/)
 2. Place `BetterLogin.jar` in your server's `plugins/` folder
 3. Restart the server
 
