@@ -5,7 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.scala.betterLogin.BetterLogin;
-import org.scala.betterLogin.PlayerDataManager;
+import org.scala.betterLogin.managers.PlayerDataManager;
 
 public class PlayerJoinListener implements Listener {
     private final BetterLogin plugin;

@@ -6,14 +6,18 @@ import org.scala.betterLogin.commands.LoginCommand;
 import org.scala.betterLogin.commands.PremiumCommand;
 import org.scala.betterLogin.commands.RegisterCommand;
 import org.scala.betterLogin.listeners.*;
+import org.scala.betterLogin.managers.PlayerDataManager;
+import org.scala.betterLogin.managers.PremiumVerifier;
 
 public class BetterLogin extends JavaPlugin {
     private PlayerDataManager dataManager;
+    private PremiumVerifier premiumVerifier;
 
     @Override
     public void onEnable() {
-        // Inizializza il data manager
+        // Inizializza il data manager e il verifier
         this.dataManager = new PlayerDataManager(this);
+        this.premiumVerifier = new PremiumVerifier();
 
         // Registra i comandi
         getCommand("login").setExecutor(new LoginCommand(this));
@@ -46,5 +50,9 @@ public class BetterLogin extends JavaPlugin {
 
     public PlayerDataManager getDataManager() {
         return dataManager;
+    }
+
+    public PremiumVerifier getPremiumVerifier() {
+        return premiumVerifier;
     }
 }
